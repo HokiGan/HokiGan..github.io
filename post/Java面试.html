@@ -103,18 +103,18 @@
 
 
 
-<meta name="description" content="###Java多线程面试问题 #####1. 进程和线程之间有什么不同？一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。 #####2. 多线程编程的好处是什么？在多线程程序">
+<meta name="description" content="Java多线程面试问题1. 进程和线程之间有什么不同？一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。 2. 多线程编程的好处是什么？在多线程程序中，多个线程被并发的执行以提">
 <meta name="keywords" content="Java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java面试">
 <meta property="og:url" content="http://hokigan.com/post/Java面试.html">
 <meta property="og:site_name" content="Hoki&#39;s Blog">
-<meta property="og:description" content="###Java多线程面试问题 #####1. 进程和线程之间有什么不同？一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。 #####2. 多线程编程的好处是什么？在多线程程序">
+<meta property="og:description" content="Java多线程面试问题1. 进程和线程之间有什么不同？一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。 2. 多线程编程的好处是什么？在多线程程序中，多个线程被并发的执行以提">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-15T17:01:30.904Z">
+<meta property="og:updated_time" content="2018-10-15T17:04:25.897Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java面试">
-<meta name="twitter:description" content="###Java多线程面试问题 #####1. 进程和线程之间有什么不同？一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。 #####2. 多线程编程的好处是什么？在多线程程序">
+<meta name="twitter:description" content="Java多线程面试问题1. 进程和线程之间有什么不同？一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。 2. 多线程编程的好处是什么？在多线程程序中，多个线程被并发的执行以提">
 
 
 
@@ -412,10 +412,9 @@
       
 
       
-        <p>###Java多线程面试问题</p>
-<p>#####1. 进程和线程之间有什么不同？<br>一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。</p>
-<p>#####2. 多线程编程的好处是什么？<br>在多线程程序中，多个线程被并发的执行以提高程序的效率，CPU不会因为某个线程需要等待资源而进入空闲状态。多个线程共享堆内存(heap memory)，因此创建多个线程去执行一些任务会比创建多个进程更好。举个例子，Servlets比CGI更好，是因为Servlets支持多线程而CGI不支持。</p>
-<p>#####3. 用户线程和守护线程有什么区别？<br>当我们在Java程序中创建一个线程，它就被称为用户线程。一个守护线程是在后台执行并且不会阻止JVM终止的线程。当没有用户线程在运行的时候，JVM关闭程序并且退出。一个守护线程创建的子线程依然是守护线程。</p>
+        <h3 id="Java多线程面试问题"><a href="#Java多线程面试问题" class="headerlink" title="Java多线程面试问题"></a>Java多线程面试问题</h3><h5 id="1-进程和线程之间有什么不同？"><a href="#1-进程和线程之间有什么不同？" class="headerlink" title="1. 进程和线程之间有什么不同？"></a>1. 进程和线程之间有什么不同？</h5><p>一个进程是一个独立(self contained)的运行环境，它可以被看作一个程序或者一个应用。而线程是在进程中执行的一个任务。Java运行环境是一个包含了不同的类和程序的单一进程。线程可以被称为轻量级进程。线程需要较少的资源来创建和驻留在进程中，并且可以共享进程中的资源。</p>
+<h5 id="2-多线程编程的好处是什么？"><a href="#2-多线程编程的好处是什么？" class="headerlink" title="2. 多线程编程的好处是什么？"></a>2. 多线程编程的好处是什么？</h5><p>在多线程程序中，多个线程被并发的执行以提高程序的效率，CPU不会因为某个线程需要等待资源而进入空闲状态。多个线程共享堆内存(heap memory)，因此创建多个线程去执行一些任务会比创建多个进程更好。举个例子，Servlets比CGI更好，是因为Servlets支持多线程而CGI不支持。</p>
+<h5 id="3-用户线程和守护线程有什么区别？"><a href="#3-用户线程和守护线程有什么区别？" class="headerlink" title="3. 用户线程和守护线程有什么区别？"></a>3. 用户线程和守护线程有什么区别？</h5><p>当我们在Java程序中创建一个线程，它就被称为用户线程。一个守护线程是在后台执行并且不会阻止JVM终止的线程。当没有用户线程在运行的时候，JVM关闭程序并且退出。一个守护线程创建的子线程依然是守护线程。</p>
 <p>#####4. 我们如何创建一个线程？<br>有两种创建线程的方法：一是实现<code>Runnable</code>接口，然后将它传递给Thread的构造函数，创建一个Thread对象；二是直接继承Thread类。若想了解更多可以阅读这篇关于如何在Java中创建线程的文章。</p>
 <p>#####5. 有哪些不同的线程生命周期？<br>当我们在Java程序中新建一个线程时，它的状态是New。当我们调用线程的start()方法时，状态被改变为Runnable。线程调度器会为Runnable线程池中的线程分配CPU时间并且讲它们的状态改变为Running。其他的线程状态还有Waiting，Blocked和Dead。读这篇文章可以了解更多关于线程生命周期的知识。</p>
 <p>#####6. 可以直接调用Thread类的run()方法么？<br>当然可以，但是如果我们调用了Thread的run()方法，它的行为就会和普通的方法一样，为了在新的线程中执行我们的代码，必须使用Thread.start()方法。</p>
@@ -542,8 +541,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -619,6 +627,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Java多线程面试问题"><span class="nav-number">1.</span> <span class="nav-text">Java多线程面试问题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#1-进程和线程之间有什么不同？"><span class="nav-number">1.0.1.</span> <span class="nav-text">1. 进程和线程之间有什么不同？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#2-多线程编程的好处是什么？"><span class="nav-number">1.0.2.</span> <span class="nav-text">2. 多线程编程的好处是什么？</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#3-用户线程和守护线程有什么区别？"><span class="nav-number">1.0.3.</span> <span class="nav-text">3. 用户线程和守护线程有什么区别？</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
