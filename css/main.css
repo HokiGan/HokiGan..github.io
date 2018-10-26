@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #faf;
+  background: #7561fa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2733,7 +2733,7 @@ embed {
   text-decoration: underline;
 }
 body {
-  background: url("/images/index.jpeg");
+  background: url("http://ww3.sinaimg.cn/large/7853084cgw1f7vueqesr5j21jk0uh446.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
