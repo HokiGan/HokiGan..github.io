@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cd2dff;
+  background: #c4f411;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2733,7 +2733,7 @@ embed {
   text-decoration: underline;
 }
 body {
-  background: url("https://source.unsplash.com/random/1600x900");
+  background: url("/upload_image/index.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
