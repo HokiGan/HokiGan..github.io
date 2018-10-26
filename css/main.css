@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7561fa;
+  background: #53f7cc;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2733,7 +2733,7 @@ embed {
   text-decoration: underline;
 }
 body {
-  background: url("http://ww3.sinaimg.cn/large/7853084cgw1f7vueqesr5j21jk0uh446.jpg");
+  background: url("https://source.unsplash.com/random/1600x900");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2742,7 +2742,7 @@ body {
 .content {
   border-radius: 10px;
   margin-top: 60px;
-  background: #fff none repeat scroll !important;
+  background: rgba(255,255,255,0.8) none repeat scroll !important;
 }
 .post-body p {
   text-indent: 2em;
