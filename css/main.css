@@ -1873,7 +1873,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #53f7cc;
+  background: #feeba8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2742,7 +2742,9 @@ body {
 .content {
   border-radius: 10px;
   margin-top: 60px;
-  background: rgba(255,255,255,0.8) none repeat scroll !important;
+  min-height: 280px;
+  padding: 60px 60px 60px 60px;
+  background: rgba(255,255,255,0.7) none repeat scroll !important;
 }
 .post-body p {
   text-indent: 2em;
