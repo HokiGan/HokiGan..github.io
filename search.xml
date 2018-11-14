@@ -44,6 +44,29 @@
       
     </entry>
     
+    <entry>
+      <title>String学习笔记</title>
+      <link href="/post/String%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
+      <url>/post/String%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
+      
+        <content type="html"><![CDATA[<blockquote class="blockquote-center">String相关</blockquote><h2 id="String常用API"><a href="#String常用API" class="headerlink" title="String常用API"></a>String常用API</h2><p>1.返回给定位置的代码单元。(偏底层代码单元，一般不使用)<br><code>char charAt(int index)</code></p><p>2.返回从给定位置开始的码点。<br><code>int codePointAt(int index)</code></p><p>3.按照字典顺序，如果字符串位于other之前，返回一个负数；如果字符串位于other之后，返回一个正数；如果两个字符串相等，返回0.<br><code>int compareTo(String other)</code></p><p>4.将这个字符串的码点作为一个流返回。调用toArray将它们放在一个数组中。<br><code>IntStream codePoints()</code></p><p>5.用数组中从offset开始的count个码点构造一个字符串。<br><code>new String(int[] codePoints, int offset, int count)</code></p><p>6.如果字符串与other相等，返回true。<br><code>boolean equals(Object other)</code></p><p>7.如果字符串与other相等(忽略大小写)，返回true。<br><code>boolean equalsIgnoreCase(String other)</code></p><p>8.如果字符串以suffix开头或结尾，返回true。<br><code>boolean startsWith(String prefix)</code></p><p>9.<br><code>boolean endsWith(String suffix)</code></p><p>10.返回与字符串str或代码点cp匹配的第一个子串的开始位置。这个位置从索引0或fromIndex开始计算。如果在原始串中不存在str，返回-1。<br><code>int indexOf(String str)</code></p><p>11.<br><code>int indexOf(String str, int fromIndex)</code></p><p>12.<br><code>int indexOf(int cp)</code></p><p>13.<br><code>int indexOf(int cp, int fromIndex)</code></p><p>14.返回与字符串str或代码点cp匹配的最后一个子串的开始位置。这个位置从原始串尾端或fromIndex开始计算。<br><code>int lastIndexOf(String str)</code></p><p>15.<br><code>int lastIndexOf(String str, int fromIndex)</code></p><p>16.<br><code>int lastIndexOf(int cp)</code></p><p>17.<br><code>int lastIndexOf(int cp, int fromIndex)</code></p><p>18.返回字符串的长度。<br><code>int length()</code></p><p>19.返回一个新字符串。这个字符串用newString代替原始字符串中所有的oldString。可以用Stirng或StringBuilder对象作为CharSequence参数。<br><code>String replace(CharSequence oldString, charSequence newString)</code></p><p>20.返回一个新字符串。这个字符串包含原始字符串中从从beginIndex到串尾或endIndex-1的所有代码单元。<br><code>String substing(int beginIndex)</code></p><p>21.<br><code>String substing(int beginIndex, int endIndex)</code></p><p>22.返回一个新字符串。这个字符串将原始字符串中的大写字母改成小写字母。<br><code>String toLowerCase()</code></p><p>23.返回一个新字符串。这个字符串将原始字符串中的小写字母改成大写字母。<br><code>String toUpperCase()</code></p><p>24.返回一个新字符串。这个字符串将删除原始字符串头部和尾部的空格。<br><code>String trim()</code></p><p>25.返回一个新字符串。用给定的定界符连接所有元素。<br><code>String join(charSequence delimiter, charSequence... elements)</code></p><p>26.返回从startIndex代码点开始，位移cpCount后的码点索引。<br><code>int offsetByCodePoints(int startIndex, int cpCount)</code></p><p>27.返回startIndex和endIndex-1之间的代码点数量。没有配成对的代用字符将计入代码点。<br><code>int codePointCount(int startIndex, int endIndex)</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> -Java -笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> -Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
   
   
 </search>
