@@ -111,7 +111,7 @@
 <meta property="og:site_name" content="Hoki&#39;s Blog">
 <meta property="og:description" content="String学习笔记">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-14T09:06:57.143Z">
+<meta property="og:updated_time" content="2018-11-14T09:09:57.663Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="String学习笔记">
 <meta name="twitter:description" content="String学习笔记">
@@ -406,7 +406,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  660
+                  653
                 </span>
               
 
@@ -457,24 +457,17 @@
 <p>6.如果字符串与other相等，返回true。<br><code>boolean equals(Object other)</code></p>
 <p>7.如果字符串与other相等(忽略大小写)，返回true。<br><code>boolean equalsIgnoreCase(String other)</code></p>
 <p>8.如果字符串以suffix开头或结尾，返回true。<br><code>boolean startsWith(String prefix)</code><br><code>boolean endsWith(String suffix)</code></p>
-<p>10.返回与字符串str或代码点cp匹配的第一个子串的开始位置。这个位置从索引0或fromIndex开始计算。如果在原始串中不存在str，返回-1。<br><code>int indexOf(String str)</code></p>
-<p>11.<br><code>int indexOf(String str, int fromIndex)</code></p>
-<p>12.<br><code>int indexOf(int cp)</code></p>
-<p>13.<br><code>int indexOf(int cp, int fromIndex)</code></p>
-<p>14.返回与字符串str或代码点cp匹配的最后一个子串的开始位置。这个位置从原始串尾端或fromIndex开始计算。<br><code>int lastIndexOf(String str)</code></p>
-<p>15.<br><code>int lastIndexOf(String str, int fromIndex)</code></p>
-<p>16.<br><code>int lastIndexOf(int cp)</code></p>
-<p>17.<br><code>int lastIndexOf(int cp, int fromIndex)</code></p>
-<p>18.返回字符串的长度。<br><code>int length()</code></p>
-<p>19.返回一个新字符串。这个字符串用newString代替原始字符串中所有的oldString。可以用Stirng或StringBuilder对象作为CharSequence参数。<br><code>String replace(CharSequence oldString, charSequence newString)</code></p>
-<p>20.返回一个新字符串。这个字符串包含原始字符串中从从beginIndex到串尾或endIndex-1的所有代码单元。<br><code>String substing(int beginIndex)</code></p>
-<p>21.<br><code>String substing(int beginIndex, int endIndex)</code></p>
-<p>22.返回一个新字符串。这个字符串将原始字符串中的大写字母改成小写字母。<br><code>String toLowerCase()</code></p>
-<p>23.返回一个新字符串。这个字符串将原始字符串中的小写字母改成大写字母。<br><code>String toUpperCase()</code></p>
-<p>24.返回一个新字符串。这个字符串将删除原始字符串头部和尾部的空格。<br><code>String trim()</code></p>
-<p>25.返回一个新字符串。用给定的定界符连接所有元素。<br><code>String join(charSequence delimiter, charSequence... elements)</code></p>
-<p>26.返回从startIndex代码点开始，位移cpCount后的码点索引。<br><code>int offsetByCodePoints(int startIndex, int cpCount)</code></p>
-<p>27.返回startIndex和endIndex-1之间的代码点数量。没有配成对的代用字符将计入代码点。<br><code>int codePointCount(int startIndex, int endIndex)</code></p>
+<p>9.返回与字符串str或代码点cp匹配的第一个子串的开始位置。这个位置从索引0或fromIndex开始计算。如果在原始串中不存在str，返回-1。<br><code>int indexOf(String str)</code><br><code>int indexOf(String str, int fromIndex)</code><br><code>int indexOf(int cp)</code><br><code>int indexOf(int cp, int fromIndex)</code></p>
+<p>10.返回与字符串str或代码点cp匹配的最后一个子串的开始位置。这个位置从原始串尾端或fromIndex开始计算。<br><code>int lastIndexOf(String str)</code><br><code>int lastIndexOf(String str, int fromIndex)</code><br><code>int lastIndexOf(int cp)</code><br><code>int lastIndexOf(int cp, int fromIndex)</code></p>
+<p>11.返回字符串的长度。<br><code>int length()</code></p>
+<p>12.返回一个新字符串。这个字符串用newString代替原始字符串中所有的oldString。可以用Stirng或StringBuilder对象作为CharSequence参数。<br><code>String replace(CharSequence oldString, charSequence newString)</code></p>
+<p>13.返回一个新字符串。这个字符串包含原始字符串中从从beginIndex到串尾或endIndex-1的所有代码单元。<br><code>String substing(int beginIndex)</code><br><code>String substing(int beginIndex, int endIndex)</code></p>
+<p>14.返回一个新字符串。这个字符串将原始字符串中的大写字母改成小写字母。<br><code>String toLowerCase()</code></p>
+<p>15.返回一个新字符串。这个字符串将原始字符串中的小写字母改成大写字母。<br><code>String toUpperCase()</code></p>
+<p>16.返回一个新字符串。这个字符串将删除原始字符串头部和尾部的空格。<br><code>String trim()</code></p>
+<p>17.返回一个新字符串。用给定的定界符连接所有元素。<br><code>String join(charSequence delimiter, charSequence... elements)</code></p>
+<p>18.返回从startIndex代码点开始，位移cpCount后的码点索引。<br><code>int offsetByCodePoints(int startIndex, int cpCount)</code></p>
+<p>19.返回startIndex和endIndex-1之间的代码点数量。没有配成对的代用字符将计入代码点。<br><code>int codePointCount(int startIndex, int endIndex)</code></p>
 
       
     </div>
